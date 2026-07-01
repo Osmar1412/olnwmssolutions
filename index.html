@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>WMS Inteligente - Automação e Otimização Avançada de Estoques</title>
+  <meta name="description" content="Potencialize seu armazém com o WMS Inteligente. Rastreabilidade em tempo real, alocação dinâmica, regras FIFO/FEFO inteligentes e mapa de calor do seu estoque.">
+  <meta name="keywords" content="WMS, Warehouse Management System, gestão de estoque, automação logística, FIFO, FEFO, mapa de calor armazém">
+  <meta name="author" content="WMS Tech">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Fontes do Google (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome para Ícones Premium -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Folha de Estilo Customizada -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       CABECALHO / NAVEGACAO (HEADER)
+       ========================================== -->
+  <header id="siteHeader">
+    <div class="container">
+      <a href="#home" class="logo-container" id="logoLink">
+        <img src="images/logo.png" alt="WMS Logo" class="logo-img">
+        <span class="logo-text">WMS Inteligente</span>
+      </a>
+      
+      <button class="nav-toggle" id="navToggleBtn" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#home" class="active" id="navHomeLink">Início</a></li>
+          <li><a href="#about" id="navAboutLink">Sobre Nós</a></li>
+          <li><a href="#features" id="navFeaturesLink">Funcionalidades</a></li>
+          <li><a href="#demo" id="navDemoLink">Demonstração</a></li>
+          <li><a href="#contact" id="navContactLink">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       SECAO HERO (HOME)
+       ========================================== -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal active">
+          <h1>Logística Inteligente de ponta a ponta para seu <span>Armazém</span></h1>
+          <p>
+            Reduza erros de separação, otimize espaços e garanta rastreabilidade absoluta. O WMS Inteligente alinha regras FIFO/FEFO automáticas e visualização de estoque intuitiva em uma única plataforma premium.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary" id="heroCtaPrimary">Solicitar Demonstração</a>
+            <a href="#demo" class="btn btn-secondary" id="heroCtaSecondary">Experimentar Sistema</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual reveal active">
+          <!-- Bloco que simula uma interface moderna de dashboard (Glassmorphism) -->
+          <div class="visual-box" id="heroVisualBox">
+            <div class="visual-header">
+              <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="visual-badge"><i class="fa-solid fa-bolt"></i> Operação em tempo real</span>
+            </div>
+            
+            <div class="visual-body">
+              <div class="bar-row">
+                <div class="bar-info">
+                  <span>Aproveitamento de Espaço</span>
+                  <strong>85%</strong>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill fill-1"></div>
+                </div>
+              </div>
+              
+              <div class="bar-row">
+                <div class="bar-info">
+                  <span>Acurácia de Inventário</span>
+                  <strong>99.8%</strong>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill fill-2"></div>
+                </div>
+              </div>
+              
+              <div class="bar-row">
+                <div class="bar-info">
+                  <span>Velocidade de Separação (Picking)</span>
+                  <strong>92%</strong>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill fill-3"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="visual-footer">
+              <span><i class="fa-solid fa-circle-check"></i> FIFO/FEFO Ativado</span>
+              <span>Integrado ao ERP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECAO SOBRE NOS (QUEM SOMOS)
+       ========================================== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="section-tag">Quem Somos</span>
+        <h2 class="section-title">Tecnologia focada em eficiência logística</h2>
+      </div>
+      
+      <p class="about-text reveal">
+        Nascemos para descomplicar a armazenagem de mercadorias. Desenvolvemos o WMS Inteligente a fim de prover precisão física e digital, reduzindo custos operacionais através de algoritmos de alocação de ponta e auditorias visuais contínuas.
+      </p>
+      
+      <div class="about-grid">
+        <!-- Missão -->
+        <div class="about-card reveal">
+          <div class="card-icon">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h3>Missão</h3>
+          <p>
+            Transformar a logística interna de empresas através de tecnologia inteligente, otimizando o aproveitamento de espaços e recursos físicos em tempo real com facilidade e precisão absoluta.
+          </p>
+        </div>
+        
+        <!-- Visão -->
+        <div class="about-card reveal">
+          <div class="card-icon">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <h3>Visão</h3>
+          <p>
+            Ser a plataforma líder de WMS SaaS em eficiência operacional no mercado latino-americano, reconhecida por sua inteligência alocativa automatizada e alto padrão de integridade de dados.
+          </p>
+        </div>
+        
+        <!-- Valores -->
+        <div class="about-card reveal">
+          <div class="card-icon">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <h3>Valores</h3>
+          <p>
+            Nossa base é fundamentada em precisão absoluta, inovação contínua focada no usuário, transparência operacional, segurança cibernética e compromisso inegociável com o sucesso do cliente.
+          </p>
+        </div>
+      </div>
+
+      <div class="values-detail reveal">
+        <div class="value-tag"><span><i class="fa-solid fa-circle-nodes"></i></span> Inovação</div>
+        <div class="value-tag"><span><i class="fa-solid fa-shield-halved"></i></span> Segurança</div>
+        <div class="value-tag"><span><i class="fa-solid fa-chart-line"></i></span> Escalabilidade</div>
+        <div class="value-tag"><span><i class="fa-solid fa-gauge-high"></i></span> Eficiência</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECAO FUNCIONALIDADES
+       ========================================== -->
+  <section id="features">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="section-tag">Recursos Avançados</span>
+        <h2 class="section-title">O que o WMS Inteligente oferece</h2>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Rastreabilidade -->
+        <div class="feature-item reveal">
+          <div class="feature-icon-wrapper">
+            <div class="feature-icon">
+              <i class="fa-solid fa-barcode"></i>
+            </div>
+          </div>
+          <div class="feature-info">
+            <h3>Entrada Inteligente & Rastreabilidade</h3>
+            <p>Registro obrigatório por lote, código (Part Number) e validade. Suporta fatores de conversão flexíveis para unidades, caixas e pallets.</p>
+          </div>
+        </div>
+        
+        <!-- FIFO/FEFO -->
+        <div class="feature-item reveal">
+          <div class="feature-icon-wrapper">
+            <div class="feature-icon">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+          </div>
+          <div class="feature-info">
+            <h3>Algoritmo de Separação (FIFO / FEFO)</h3>
+            <p>Garanta que os lotes prestes a vencer saiam primeiro. O sistema busca automaticamente o estoque mais antigo otimizando a movimentação.</p>
+          </div>
+        </div>
+        
+        <!-- Mapa de Calor -->
+        <div class="feature-item reveal">
+          <div class="feature-icon-wrapper">
+            <div class="feature-icon">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+          </div>
+          <div class="feature-info">
+            <h3>Mapa Visual (Heat Map)</h3>
+            <p>Interface gráfica interativa para auditar e gerenciar posições em tempo real. Identifique facilmente endereços vagos, ocupados e incompletos.</p>
+          </div>
+        </div>
+        
+        <!-- Segurança & Perfis -->
+        <div class="feature-item reveal">
+          <div class="feature-icon-wrapper">
+            <div class="feature-icon">
+              <i class="fa-solid fa-user-gear"></i>
+            </div>
+          </div>
+          <div class="feature-info">
+            <h3>Gestão Granular de Usuários e Perfis</h3>
+            <p>Controle de permissões detalhado por módulo (Web e Mobile). Rastreabilidade e proteção contra exclusão de perfis críticos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECAO DEMONSTRACAO INTERATIVA
+       ========================================== -->
+  <section id="demo">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="section-tag">Demonstração</span>
+        <h2 class="section-title">Experimente o sistema em tempo real</h2>
+      </div>
+      
+      <p class="about-text reveal">
+        Explore as principais interfaces do WMS Inteligente diretamente aqui. Clique nas abas do painel simulado para navegar pelas telas de Dashboard, Mapa do Armazém e Consulta.
+      </p>
+      
+      <div class="demo-container reveal">
+        <!-- Barra de controle do simulador (Header do Monitor) -->
+        <div class="demo-window-header">
+          <div class="window-controls">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="demo-tabs">
+            <button class="demo-tab active" data-tab="tab-dashboard" id="btnTabDashboard">
+              <i class="fa-solid fa-chart-pie"></i> Dashboard
+            </button>
+            <button class="demo-tab" data-tab="tab-map" id="btnTabMap">
+              <i class="fa-solid fa-map"></i> Mapa do Armazém
+            </button>
+            <button class="demo-tab" data-tab="tab-query" id="btnTabQuery">
+              <i class="fa-solid fa-magnifying-glass"></i> Consulta de Estoque
+            </button>
+          </div>
+        </div>
+        
+        <!-- Conteúdo do Simulador -->
+        <div class="demo-window-body">
+          
+          <!-- TELA 1: DASHBOARD SIMULADO -->
+          <div class="demo-screen active" id="tab-dashboard">
+            <div class="screen-header">
+              <h3>Painel de Controle Geral</h3>
+              <span class="status-indicator online">Conectado</span>
+            </div>
+            
+            <div class="screen-dashboard-grid">
+              <div class="dash-card">
+                <span class="dash-card-icon"><i class="fa-solid fa-boxes-stacked"></i></span>
+                <div class="dash-card-info">
+                  <h4>Total de Itens</h4>
+                  <p class="dash-value">12.450 un</p>
+                </div>
+              </div>
+              <div class="dash-card">
+                <span class="dash-card-icon green"><i class="fa-solid fa-truck-ramp-box"></i></span>
+                <div class="dash-card-info">
+                  <h4>Entradas Hoje</h4>
+                  <p class="dash-value">14 Notas</p>
+                </div>
+              </div>
+              <div class="dash-card">
+                <span class="dash-card-icon purple"><i class="fa-solid fa-clipboard-list"></i></span>
+                <div class="dash-card-info">
+                  <h4>Pendentes Separação</h4>
+                  <p class="dash-value">8 Pedidos</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="screen-chart-section">
+              <div class="mini-chart-card">
+                <h4>Ocupação por Tipo de Nível</h4>
+                <div class="chart-bars-vertical">
+                  <div class="chart-v-item">
+                    <div class="v-bar-bg"><div class="v-bar-fill" style="height: 90%;"></div></div>
+                    <span>Pallets</span>
+                  </div>
+                  <div class="chart-v-item">
+                    <div class="v-bar-bg"><div class="v-bar-fill" style="height: 45%;"></div></div>
+                    <span>Caixas</span>
+                  </div>
+                  <div class="chart-v-item">
+                    <div class="v-bar-bg"><div class="v-bar-fill" style="height: 75%;"></div></div>
+                    <span>Picking</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="recent-activities-card">
+                <h4>Últimas Transações</h4>
+                <ul class="activity-list">
+                  <li>
+                    <span class="activity-time">08:12</span>
+                    <span class="activity-desc">Entrada NF #5031 - Alocada na R-01-A-03</span>
+                  </li>
+                  <li>
+                    <span class="activity-time">08:05</span>
+                    <span class="activity-desc">Reserva de estoque efetuada para Romaneio #844</span>
+                  </li>
+                  <li>
+                    <span class="activity-time">07:50</span>
+                    <span class="activity-desc">Baixa física efetuada - 120 un de Part Number PN-881</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TELA 2: MAPA DO ARMAZEM SIMULADO (HEAT MAP) -->
+          <div class="demo-screen" id="tab-map">
+            <div class="screen-header">
+              <h3>Mapa Visual do Estoque (Rua A)</h3>
+              <div class="map-legend">
+                <span class="legend-item"><span class="color green"></span> Disponível</span>
+                <span class="legend-item"><span class="color red"></span> Ocupado</span>
+                <span class="legend-item"><span class="color yellow"></span> Incompleto</span>
+              </div>
+            </div>
+            
+            <div class="screen-map-container">
+              <p class="map-instruction">Passe o mouse ou clique sobre um endereço para auditar os produtos alocados:</p>
+              
+              <div class="map-grid-simulator">
+                <!-- Prédio 1 -->
+                <div class="map-predio">
+                  <span class="predio-title">Prédio 01</span>
+                  <div class="predio-levels">
+                    <div class="map-cell ocupado" data-addr="R01-P01-N3" data-prod="Parafuso Sextavado" data-lote="LOT-2026A" data-qty="200 un">Nível 3</div>
+                    <div class="map-cell incompleto" data-addr="R01-P01-N2" data-prod="Porca Flangeada" data-lote="LOT-2026B" data-qty="50 un">Nível 2</div>
+                    <div class="map-cell disponivel" data-addr="R01-P01-N1" data-prod="Vazio" data-lote="-" data-qty="-">Nível 1</div>
+                  </div>
+                </div>
+                <!-- Prédio 2 -->
+                <div class="map-predio">
+                  <span class="predio-title">Prédio 02</span>
+                  <div class="predio-levels">
+                    <div class="map-cell disponivel" data-addr="R01-P02-N3" data-prod="Vazio" data-lote="-" data-qty="-">Nível 3</div>
+                    <div class="map-cell ocupado" data-addr="R01-P02-N2" data-prod="Arruela Lisa" data-lote="LOT-2026C" data-qty="500 un">Nível 2</div>
+                    <div class="map-cell ocupado" data-addr="R01-P02-N1" data-prod="Chave Estrela" data-lote="LOT-2026D" data-qty="80 un">Nível 1</div>
+                  </div>
+                </div>
+                <!-- Prédio 3 -->
+                <div class="map-predio">
+                  <span class="predio-title">Prédio 03</span>
+                  <div class="predio-levels">
+                    <div class="map-cell ocupado" data-addr="R01-P03-N3" data-prod="Alicate Universal" data-lote="LOT-2026E" data-qty="120 un">Nível 3</div>
+                    <div class="map-cell disponivel" data-addr="R01-P03-N2" data-prod="Vazio" data-lote="-" data-qty="-">Nível 2</div>
+                    <div class="map-cell incompleto" data-addr="R01-P03-N1" data-prod="Chave Fenda" data-lote="LOT-2026F" data-qty="15 un">Nível 1</div>
+                  </div>
+                </div>
+                <!-- Prédio 4 -->
+                <div class="map-predio">
+                  <span class="predio-title">Prédio 04</span>
+                  <div class="predio-levels">
+                    <div class="map-cell disponivel" data-addr="R01-P04-N3" data-prod="Vazio" data-lote="-" data-qty="-">Nível 3</div>
+                    <div class="map-cell disponivel" data-addr="R01-P04-N2" data-prod="Vazio" data-lote="-" data-qty="-">Nível 2</div>
+                    <div class="map-cell ocupado" data-addr="R01-P04-N1" data-prod="Martelo Borracha" data-lote="LOT-2026G" data-qty="45 un">Nível 1</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Painel de detalhes do endereço clicado -->
+              <div class="map-detail-panel" id="mapDetailPanel">
+                <h4 id="detailAddr">R01-P01-N3</h4>
+                <div class="detail-grid">
+                  <div><span>Produto:</span> <strong id="detailProd">Parafuso Sextavado</strong></div>
+                  <div><span>Lote:</span> <strong id="detailLote">LOT-2026A</strong></div>
+                  <div><span>Quantidade:</span> <strong id="detailQty">200 un</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TELA 3: CONSULTA DE ESTOQUE SIMULADA -->
+          <div class="demo-screen" id="tab-query">
+            <div class="screen-header">
+              <h3>Consulta de Estoque em Tempo Real</h3>
+            </div>
+            
+            <div class="query-search-bar">
+              <input type="text" id="querySearchInput" placeholder="Busque por código ou nome do produto (Ex: Chave, Parafuso)..." class="form-control">
+              <button class="btn btn-primary" id="btnRunQuerySearch"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+            </div>
+            
+            <div class="query-results-container">
+              <table class="query-table" id="queryResultTable">
+                <thead>
+                  <tr>
+                    <th>Part Number</th>
+                    <th>Descrição</th>
+                    <th>Lote</th>
+                    <th>Validade</th>
+                    <th>Quantidade</th>
+                    <th>Endereço</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr data-keywords="parafuso sextavado lot-2026a pn-101">
+                    <td>PN-101</td>
+                    <td>Parafuso Sextavado</td>
+                    <td>LOT-2026A</td>
+                    <td>10/12/2028</td>
+                    <td>200 un</td>
+                    <td>R01-P01-N3</td>
+                  </tr>
+                  <tr data-keywords="porca flangeada lot-2026b pn-102">
+                    <td>PN-102</td>
+                    <td>Porca Flangeada</td>
+                    <td>LOT-2026B</td>
+                    <td>15/10/2027</td>
+                    <td>50 un</td>
+                    <td>R01-P01-N2</td>
+                  </tr>
+                  <tr data-keywords="arruela lisa lot-2026c pn-103">
+                    <td>PN-103</td>
+                    <td>Arruela Lisa</td>
+                    <td>LOT-2026C</td>
+                    <td>20/05/2029</td>
+                    <td>500 un</td>
+                    <td>R01-P02-N2</td>
+                  </tr>
+                  <tr data-keywords="chave estrela lot-2026d pn-201">
+                    <td>PN-201</td>
+                    <td>Chave Estrela</td>
+                    <td>LOT-2026D</td>
+                    <td>-</td>
+                    <td>80 un</td>
+                    <td>R01-P02-N1</td>
+                  </tr>
+                  <tr data-keywords="alicate universal lot-2026e pn-202">
+                    <td>PN-202</td>
+                    <td>Alicate Universal</td>
+                    <td>LOT-2026E</td>
+                    <td>-</td>
+                    <td>120 un</td>
+                    <td>R01-P03-N3</td>
+                  </tr>
+                  <tr data-keywords="chave fenda lot-2026f pn-203">
+                    <td>PN-203</td>
+                    <td>Chave Fenda</td>
+                    <td>LOT-2026F</td>
+                    <td>-</td>
+                    <td>15 un</td>
+                    <td>R01-P03-N1</td>
+                  </tr>
+                  <tr data-keywords="martelo borracha lot-2026g pn-204">
+                    <td>PN-204</td>
+                    <td>Martelo Borracha</td>
+                    <td>LOT-2026G</td>
+                    <td>-</td>
+                    <td>45 un</td>
+                    <td>R01-P04-N1</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="query-no-results" id="queryNoResults">
+                Nenhum produto encontrado com os filtros aplicados.
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECAO CONTATO
+       ========================================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div>
+            <span class="section-tag">Contato</span>
+            <h2>Fale com nossos especialistas</h2>
+            <p>
+              Quer ver na prática como o WMS Inteligente pode otimizar a sua operação logística? Preencha o formulário e agende uma demonstração ao vivo com um consultor.
+            </p>
+          </div>
+          
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>E-mail</h4>
+                <p>olnwmssolutions@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h4>Celular</h4>
+                <p>(11) 9-4786-5370</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container reveal">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Seu Nome *</label>
+              <input type="text" id="name" class="form-control" placeholder="Ex: João Silva" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Seu E-mail *</label>
+              <input type="email" id="email" class="form-control" placeholder="Ex: joao@empresa.com.br" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Celular *</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Ex: (11) 99999-9999" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="company">Nome da Empresa *</label>
+              <input type="text" id="company" class="form-control" placeholder="Ex: Minha Logística S/A" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Mensagem *</label>
+              <textarea id="message" class="form-control" placeholder="Como podemos ajudar o seu negócio?" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;" id="formSubmitBtn">Enviar Mensagem</button>
+            
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       RODAPE (FOOTER)
+       ========================================== -->
+  <footer id="siteFooter">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-copy">
+          &copy; 2026 WMS Inteligente. Todos os direitos reservados.
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#features">Funcionalidades</a></li>
+          <li><a href="#demo">Demonstração</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
