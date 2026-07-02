@@ -607,6 +607,13 @@ nav a:hover::after, nav a.active::after {
   line-height: 1.6;
 }
 /* ==========================================
+   SEÇÃO FUNCIONALIDADES (#FEATURES)
+   ========================================== */
+#features {
+  padding-bottom: 220px;
+}
+
+/* ==========================================
    SEÇÃO OPERAÇÕES (#OPERATIONS)
    ========================================== */
 #operations {
