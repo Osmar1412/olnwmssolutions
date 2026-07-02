@@ -606,17 +606,15 @@ nav a:hover::after, nav a.active::after {
   color: var(--text-secondary);
   line-height: 1.6;
 }
-
 /* ==========================================
    SEÇÃO OPERAÇÕES (#OPERATIONS)
    ========================================== */
 #operations {
-  background-color: rgba(9, 13, 22, 0.45);
-  border-top: 1px solid rgba(255, 255, 255, 0.03);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-  box-shadow: inset 0 20px 40px rgba(0, 0, 0, 0.15), inset 0 -20px 40px rgba(0, 0, 0, 0.15);
+  background-color: #0b0f19;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 20px 40px rgba(0, 0, 0, 0.25), inset 0 -20px 40px rgba(0, 0, 0, 0.25);
 }
-
 .operations-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
